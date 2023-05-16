@@ -5,13 +5,13 @@
    + 3 WebSites
    + 3 CSS
    
-   + ❌ BOOSTRAP        
-   + ✅ RESPONSIVE DESING 100% -> FLEXBOX
+   + ❌ NO BOOSTRAP        
+   + ✅ FULL RESPONSIVE DESING 100% / Tablet - Phone -> FLEXBOX
 
   + Dificultad: Media -> Avanzada   
 
-      1 - Web Default: https://resplendent-cendol-7dbc2c.netlify.app/
+      1 - Web Default: https://elaborate-tiramisu-9d27a1.netlify.app/
       
-      2 - Web Urbana: https://preeminent-monstera-941c07.netlify.app/
+      2 - Web Urbana: https://fastidious-croissant-9ea6a2.netlify.app/
       
-      3 - Web Retro: https://stirring-tartufo-b938d6.netlify.app/
+      3 - Web Retro: https://transcendent-creponne-6531be.netlify.app/
