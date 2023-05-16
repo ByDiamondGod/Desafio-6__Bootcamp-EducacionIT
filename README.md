@@ -5,12 +5,12 @@
    + 3 WebSites
    + 3 CSS
           
-   + RESPONSIVE DESING -> FLEXBOX
+   + RESPONSIVE DESING 100% -> FLEXBOX
 
   + Dificultad: Media -> Avanzada   
 
-      1 - Web Default: https://teal-cobbler-429e1f.netlify.app/
-   
-      2 - Web Retro: 
-   
-      3 - Web Urbana: https://profound-starship-24d72e.netlify.app/
+      1 - Web Default: https://resplendent-cendol-7dbc2c.netlify.app/
+      
+      2 - Web Urbana: https://preeminent-monstera-941c07.netlify.app/
+      
+      3 - Web Retro: https://stirring-tartufo-b938d6.netlify.app/
