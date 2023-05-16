@@ -5,6 +5,8 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+/*! Estilo: Default */
+
 :root {
   --cream-green: #d6e2de;
   --light-1-green: #a6c1b9;
@@ -267,6 +269,14 @@ textarea:focus {
 }
 
 /* selections */
-::selection  {
+::selection {
   background-color: var(--light-1-green);
+}
+
+/* media queries */
+
+@media screen and (max-width: 413px) {
+  .sedes-wrap {
+    min-width: 290px;
+  }
 }
