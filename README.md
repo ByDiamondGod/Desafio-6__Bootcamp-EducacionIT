@@ -1,11 +1,12 @@
   Replicas exactas de img y mp4 hacia codigo + Varios CSS para cambiar tematica y estilo del formulario.
   
    
-   + ( HTML y CSS )      
+   + ( PURO HTML y CSS )      
    + 3 WebSites
    + 3 CSS
-          
-   + RESPONSIVE DESING 100% -> FLEXBOX
+   
+   + ❌ BOOSTRAP        
+   + ✅ RESPONSIVE DESING 100% -> FLEXBOX
 
   + Dificultad: Media -> Avanzada   
 
