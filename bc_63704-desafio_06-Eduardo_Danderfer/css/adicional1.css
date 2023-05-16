@@ -144,8 +144,18 @@ fieldset {
   padding: 1rem 0.7rem 0.5rem;
 }
 
+.sedes-wrap {
+  display: flex;
+}
+
 .sedes-p {
   margin: 0.5rem 0 0.5rem;
+}
+
+.bold-p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .interes-p {
@@ -218,7 +228,7 @@ input[type="email"] {
   vertical-align: middle;
   color: var(#000);
   width: 65%;
-  min-width: 300px;
+  min-width: 266px;
   padding: 1.5rem;
   margin: 3rem auto 2rem;
   background-color: var(--light-main);
@@ -310,8 +320,25 @@ textarea:focus {
 
 /* media queries */
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width:600px) {
+    body {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .p-sexo {
+    margin: 1rem 0 0.5rem;
+  }
+
+  .form-group-options {
+    flex-direction: column;
+  }
+
   .sedes-wrap {
-    min-width: 290px;
+    flex-direction: column;
   }
 }

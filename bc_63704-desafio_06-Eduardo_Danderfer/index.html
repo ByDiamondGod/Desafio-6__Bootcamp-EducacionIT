@@ -64,14 +64,21 @@
           </div>
 
           <div class="form-group-options">
-            <input type="radio" name="sexo" id="femenino" value="femenino" required checked>
-            <label for="femenino">Femenino</label>
 
-            <input type="radio" name="sexo" id="masculino" value="masculino" required>
-            <label for="masculino">Masculino</label>
+            <div class="form-options">
+              <input type="radio" name="sexo" id="femenino" value="femenino" required checked>
+              <label for="femenino">Femenino</label>
+            </div>
 
-            <input type="radio" name="sexo" id="otro" value="otro" required>
-            <label for="otro">Otro</label>
+            <div class="form-options">
+              <input type="radio" name="sexo" id="masculino" value="masculino" required>
+              <label for="masculino">Masculino</label>
+            </div>
+
+            <div class="form-options">
+              <input type="radio" name="sexo" id="otro" value="otro" required>
+              <label for="otro">Otro</label>
+            </div>
           </div>
 
         </fieldset> <!-- Datos Personales -->
@@ -106,36 +113,53 @@
                 class="title-2-span">A</span>ctividades <span class="title-2-emoji">🤸‍♂️</span></h2>
             <p class="sedes-p interes-p">Por favor, indicá cuáles actividades te interesan.</p>
 
-            <p class="sedes-p">Sade Palermo:</p>
+            <p class="sedes-p bold-p">Sade Palermo:</p>
 
             <div class="sedes-wrap">
-              <input type="checkbox" name="sede-palermo" id="basquet-palermo" value="basquet">
-              <label for="basquet-palermo">Básquet</label>
+              <div class="sede-item">
+                <input type="checkbox" name="sede-palermo" id="basquet-palermo" value="basquet">
+                <label for="basquet-palermo">Básquet</label>
+              </div>
 
-              <input type="checkbox" name="sede-palermo" id="boxeo-palermo" value="boxeo">
-              <label for="boxeo-palermo">Boxeo</label>
+              <div class="sede-item">
+                <input type="checkbox" name="sede-palermo" id="boxeo-palermo" value="boxeo">
+                <label for="boxeo-palermo">Boxeo</label>
+              </div>
 
-              <input type="checkbox" name="sede-palermo" id="futbol" value="futbol">
-              <label for="futbol">Fútbol</label>
+              <div class="sede-item">
+                <input type="checkbox" name="sede-palermo" id="futbol" value="futbol">
+                <label for="futbol">Fútbol</label>
+              </div>
 
-              <input type="checkbox" name="sede-palermo" id="tenis" value="tenis">
-              <label for="tenis">Tenis</label>
+              <div class="sede-item">
+                <input type="checkbox" name="sede-palermo" id="tenis" value="tenis">
+                <label for="tenis">Tenis</label>
+              </div>
+
             </div> <!-- form-group-options-2 -->
 
-            <p class="sedes-p">Sede Rosario:</p>
+            <p class="sedes-p bold-p">Sede Rosario:</p>
             <div class="sedes-wrap chekbox-sede-rosario">
 
-              <input type="checkbox" name="sede-rosario" id="basquet-rosario" value="basquet">
-              <label for="basquet-rosario">Básquet</label>
+              <div class="sedes-item">
+                <input type="checkbox" name="sede-rosario" id="basquet-rosario" value="basquet">
+                <label for="basquet-rosario">Básquet</label>
+              </div>
 
-              <input type="checkbox" name="sede-rosario" id="boxeo-rosario" value="boxeo">
-              <label for="boxeo-rosario">Boxeo</label>
+              <div class="sedes-item">
+                <input type="checkbox" name="sede-rosario" id="boxeo-rosario" value="boxeo">
+                <label for="boxeo-rosario">Boxeo</label>
+              </div>
 
-              <input type="checkbox" name="sede-rosario" id="rugby" value="rugby">
-              <label for="rugby">Rugby</label>
+              <div class="sedes-item">
+                <input type="checkbox" name="sede-rosario" id="rugby" value="rugby">
+                <label for="rugby">Rugby</label>
+              </div>
 
-              <input type="checkbox" name="sede-rosario" id="voley" value="voley">
-              <label for="voley">Voley</label>
+              <div class="sedes-item">
+                <input type="checkbox" name="sede-rosario" id="voley" value="voley">
+                <label for="voley">Voley</label>
+              </div>
             </div> <!-- form-group-options-2 -->
           </div> <!-- activity -->
         </fieldset> <!-- Actividades -->

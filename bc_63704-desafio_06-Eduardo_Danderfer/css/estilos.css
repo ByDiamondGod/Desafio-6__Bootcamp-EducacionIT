@@ -127,6 +127,11 @@ fieldset {
   padding: 2rem 0.7rem 0;
 }
 
+.sedes-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
 .sedes-p {
   margin: 0.5rem 0 0.5rem;
 }
@@ -269,14 +274,20 @@ textarea:focus {
 }
 
 /* selections */
-::selection {
+::selection  {
   background-color: var(--light-1-green);
 }
 
-/* media queries */
+@media screen and (max-width: 500px) {
+  .p-sexo {
+    margin: 1rem 0 0.5rem;
+  }
 
-@media screen and (max-width: 413px) {
+  .form-group-options {
+    flex-direction: column;
+  }
+
   .sedes-wrap {
-    min-width: 290px;
+    flex-direction: column;
   }
 }
