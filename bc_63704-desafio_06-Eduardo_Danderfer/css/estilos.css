@@ -274,7 +274,7 @@ textarea:focus {
 }
 
 /* selections */
-::selection  {
+::selection {
   background-color: var(--light-1-green);
 }
 

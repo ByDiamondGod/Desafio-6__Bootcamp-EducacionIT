@@ -153,6 +153,11 @@ fieldset {
 }
 
 .bold-p {
+  color: var(--color-2);
+  letter-spacing: 0.5px;
+  font-style: oblique;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -320,16 +325,14 @@ textarea:focus {
 
 /* media queries */
 
-@media screen and (max-width:600px) {
-    body {
+@media screen and (max-width: 600px) {
+  body {
     background-repeat: repeat;
     background-size: cover;
   }
 }
 
-
 @media screen and (max-width: 500px) {
-
   .p-sexo {
     margin: 1rem 0 0.5rem;
   }
