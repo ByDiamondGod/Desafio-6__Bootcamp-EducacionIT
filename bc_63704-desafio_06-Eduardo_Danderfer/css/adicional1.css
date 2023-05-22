@@ -107,6 +107,7 @@ fieldset {
 }
 
 .linear-circles {
+  visibility: hidden;
   text-align: center;
   width: 50%;
   border: none;
@@ -153,11 +154,8 @@ fieldset {
 }
 
 .bold-p {
-  color: var(--color-2);
   letter-spacing: 0.5px;
   font-style: oblique;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -173,6 +171,11 @@ label {
   padding-left: 10px;
   margin-top: 10px;
   vertical-align: middle;
+}
+
+input,
+select {
+  accent-color: var(--color-2);
 }
 
 input,

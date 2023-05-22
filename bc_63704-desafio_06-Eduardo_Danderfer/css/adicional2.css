@@ -167,6 +167,11 @@ label {
 }
 
 input,
+select {
+  accent-color: rgb(255, 251, 5);
+}
+
+input,
 select,
 textarea {
   background-color: #ffffffa0;
