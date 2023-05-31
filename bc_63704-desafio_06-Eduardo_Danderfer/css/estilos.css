@@ -265,11 +265,11 @@ textarea:focus {
 }
 
 /* changes */
-#fieldset-changes:focus-within {
+.fieldset-changes:focus-within {
   background-color: var(--light-1-green);
 }
 
-#fieldset-changes:focus-within #title-changes {
+.fieldset-changes:focus-within #title-changes {
   background-color: var(--black-green);
 }
 
@@ -291,3 +291,4 @@ textarea:focus {
     flex-direction: column;
   }
 }
+/* Eduardo Danderfer = Eddev Desing */
